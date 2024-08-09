@@ -38,7 +38,7 @@ def rmvBWimg(imgpth):
 
 
 
-img = cv2.imread('faces/testDATA.jpg')
-imgpth = 'faces/testDATA.jpg'
+img = cv2.imread('faces/6.jpeg')
+imgpth = 'faces/6.jpeg'
 isBW = isBWorNot(img)
 rmvBWimg(imgpth)
