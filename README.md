@@ -1,5 +1,7 @@
 # Faces-Analysis-Assignment-AIBC
-_A part of my AI summer camp journey!_
+_A part of my AI summer camp journey!_  
+ 
+![AI](https://img.shields.io/badge/AI-Summer%20camp-darkgreen)
 
 ---
 
