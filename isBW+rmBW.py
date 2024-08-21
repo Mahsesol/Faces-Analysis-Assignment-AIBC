@@ -16,7 +16,8 @@ which the face is in front pose)
 from images and save them in another directory)
 """
 
-def isBWorNot(img):
+def isBWorNot(imgpth):
+    img = cv2.imread(imgpth)
     threshold=30
     if len(img.shape) == 2:
 
@@ -31,14 +32,19 @@ def isBWorNot(img):
     return False
 
 def rmvBWimg(imgpth):
-    boolBW = isBWorNot(img)
+    boolBW = isBWorNot(imgpth)
     if boolBW == True:
         os.path.exists(imgpth)
         os.remove(imgpth)
 
 
 
-img = cv2.imread('faces/6.jpeg')
-imgpth = 'faces/6.jpeg'
-isBW = isBWorNot(img)
+imgpth = 'faces/5.jpeg'
+isBW = isBWorNot(imgpth)
+
+if isBW == True:
+    print("Its a black&white image!")
+else:
+    print("Its not a black&white image!") 
+
 rmvBWimg(imgpth)
