@@ -12,7 +12,7 @@ This project focuses on various image processing and computer vision tasks using
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Examples](#examples)
-
+- [Feedback](#Feedback)
  
 ## Installation
 
@@ -112,8 +112,8 @@ sobel_result = krnlFunc(img, left_sobel_kernel)
  
 ## Feedback
 
-If you have any feedback, please reach out to me. <3 
-## 
+If you have any feedback, please reach out to me. <3  
+
 - [Mahsesol](https://www.github.com/Mahsesol)
 
 
